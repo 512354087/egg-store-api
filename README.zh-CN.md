@@ -35,5 +35,7 @@ $ npm stop
 - 使用 `npm test` 来执行单元测试。
 - 使用 `npm run autod` 来自动检测依赖更新，详细参见 [autod](https://www.npmjs.com/package/autod) 。
 
+### 自动生成models
+$ sequelize-auto -h 118.31.11.26 -d store -u root -x 123456 -p 3306  --dialect mysql -o app/models
 
 [egg]: https://eggjs.org

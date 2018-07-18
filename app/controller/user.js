@@ -21,7 +21,7 @@ class UserController extends Controller {
         ctx.status = 201;
     }
     async index() {
-        const list=await this.ctx.app.mysql.query('select * from users');
+        const list=await this.service.user.index();
         this.ctx.body = list;
     }
 }
